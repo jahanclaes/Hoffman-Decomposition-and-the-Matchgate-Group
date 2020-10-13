@@ -9,6 +9,9 @@ The file SpecialOrthogonalDecomposition.py realizes the bijection between SO(2N)
 
 # References
 [1] R. C. Raffenetti and K. Ruedenberg, Parametrization of an orthogonal matrix in terms of generalized Eulerian angles, Int. J. Quantum Chem. 4, 625 (1969).
+
 [2] D. K. Hoffman, R. C. Raffenetti, and K. Ruedenberg, Generalization of Euler angles to N-dimensional orthogonal matrices, J. Math. Phys. 13, 528 (1972).
+
 [3] R. Jozsa and A. Miyake, Matchgates and classical simulation of quantum circuits, Proc. Math. Phys. Eng. Sci. 464, 3089 (2008).
+
 [4] Forthcoming
