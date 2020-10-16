@@ -3,7 +3,7 @@ import numpy.linalg as npl
 import math
 from scipy.stats import ortho_group,unitary_group
 from scipy.linalg import expm
-import SpecialOrthogonalDecomposition as sod
+import HoffmanDecomposition as hof
 
 
 def Tr(M):
@@ -20,7 +20,7 @@ def RotationToMatchgates(T):
     SE=np.matrix(expm(1j*math.pi/4*np.kron(Y,X)))
     SO=np.matrix(expm(-1j*math.pi/4*np.kron(X,Y)))
 
-    anglesList = sod.FindAngles(T)
+    anglesList = hof.FindAngles(T)
     matchgateList = []
     sampleMajoranas = [np.kron(X,np.kron(I,I))/2**1.5,np.kron(Y,np.kron(I,I))/2**1.5,np.kron(Z,np.kron(X,I))/2**1.5,np.kron(Z,np.kron(Y,I))/2**1.5,np.kron(np.kron(Z,Z),X)/2**1.5,np.kron(np.kron(Z,Z),Y)/2**1.5]
     for q in range(2*N-1,-1,-1):
