@@ -14,4 +14,4 @@ The file MatchgateDecomposition.py realizes the bijection between SO(2N) and the
 
 [3] R. Jozsa and A. Miyake, Matchgates and classical simulation of quantum circuits, Proc. Math. Phys. Eng. Sci. 464, 3089 (2008).
 
-[4] Forthcoming
+[4] https://arxiv.org/abs/2011.00007
