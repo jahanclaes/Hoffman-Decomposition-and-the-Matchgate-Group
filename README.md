@@ -14,4 +14,4 @@ The file MatchgateDecomposition.py realizes the bijection between SO(2N) and the
 
 [3] R. Jozsa and A. Miyake, Matchgates and classical simulation of quantum circuits, Proc. Math. Phys. Eng. Sci. 464, 3089 (2008).
 
-[4] https://arxiv.org/abs/2011.00007
+[4] J. Claes, E. Rieffel, and Z. Wang, Character randomized benchmarking for non-multiplicity-free groups with applications to subspace, leakage, and matchgate randomized benchmarking, PRX Quantum 2, 010351 (2021)
