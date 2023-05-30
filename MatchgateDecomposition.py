@@ -15,7 +15,6 @@ def RotationToMatchgates(T):
     Output is given by a list of ((i,j),U), where (i,j) denote two nearest-neighbor sites and U denotes the matchgate to apply to them.
     """
     N = int(T.shape[0]/2)
-    swapList = []# A list of the operators that swap c_i <-> -c_(i+2). It is more efficient to precompute these elements and look them up.
     I,X,Y,Z=np.matrix(np.identity(2)),np.matrix([[0j,1],[1,0]]),np.matrix([[0,-1j],[1j,0]]),np.matrix([[1,0],[0,-1]]) # Pauli matrices
     SE=np.matrix(expm(1j*math.pi/4*np.kron(Y,X)))
     SO=np.matrix(expm(-1j*math.pi/4*np.kron(X,Y)))
